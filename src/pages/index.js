@@ -1,15 +1,13 @@
 import * as React from 'react'
-
-// styles
-const pageStyles = {
-  color: '#232129',
-  padding: 96,
-  fontFamily: '-apple-system, Roboto, sans-serif, serif',
-}
+import { Projects } from '../templates/Projects'
 
 // markup
 const IndexPage = () => {
-  return <main style={pageStyles}></main>
+  return (
+    <main>
+      <Projects />
+    </main>
+  )
 }
 
 export default IndexPage
