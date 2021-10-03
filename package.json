@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "prettier": "prettier --write **/*.{js,json,yml,yaml,md}"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
