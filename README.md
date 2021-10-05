@@ -1,8 +1,23 @@
-# showcase
+<p align="center">
+     <a href="https://www.askbuddie.com">
+         <img src="src/images/ask-buddie.png" align="center" alt="askbuddie-logo" width="150"/>
+     </a>
+</p>
+<h1 align="center" style="border: 0;"> Showcase </h1>
 
-An awesome collection of projects built my Ask Buddie members.
+An awesome collection of projects built by Ask Buddie members.
 
-# Contribution
+# Table Of Contents
+
+-   [Prerequisites](#Prerequisites)
+-   [Contributing](#Contributing)
+-   [License](#license)
+
+# Prerequisites
+
+- JavaScript, Gatsby, Tailwind, React
+
+# Contributing
 
 ## Contribute on the project feature
 
@@ -52,3 +67,7 @@ Above content in-between `---` are necessary. Please don't forget to wrap them w
 Don't forget to add your image.
 
 **Note:** Try to add more information below the above content about your project. It can be any information, or demo screenshots, how to setup it, what you learned or anything.
+
+# License
+
+MIT License
