@@ -54,7 +54,7 @@ To add multiple images for multiple projects, create project directory inside `s
 
 ## Important Note on required content:
 
-Anything missing on PR based on what described about will not be accepted.
+Anything missing on PR based on what described above will not be accepted.
 
 ### `src/content/<your-project-file>.mdx`
 
@@ -74,7 +74,7 @@ Above content in-between `---` are necessary. Please don't forget to wrap them w
 
 Don't forget to add your image.
 
-**Note:** Try to add more information below the above content about your project. It can be any information, or demo screenshots, how to setup it, what you learned or anything.
+**Note:** Try to add more information about your project after the content mentioned above. It can be any information regarding your project or demo video, screenshots, how to setup, references etc.
 
 # License
 
