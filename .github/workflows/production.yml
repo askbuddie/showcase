@@ -1,0 +1,23 @@
+name: Deploy to Ask Buddie
+
+on:
+  push:
+    branches: [master]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        with:
+          node-version: '16.x'
+      - name: Install dependencies
+        run: |
+          yarn
+          yarn build
+
+      - name: Upload files
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          local-dir: public/
