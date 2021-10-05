@@ -31,7 +31,7 @@
 
 If you are interested to develop & maintain this project please follow the guide below:
 
-To get started, the first step is to pick the (issues)[https://github.com/askbuddie/showcase/issues] and ask for the repository owners to assign it to you.
+To get started, the first step is to pick the [issues](https://github.com/askbuddie/showcase/issues) and ask for the repository owners to assign it to you.
 
 And,
 
