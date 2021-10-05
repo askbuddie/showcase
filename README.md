@@ -5,7 +5,15 @@
 </p>
 <h1 align="center" style="border: 0;"> Showcase </h1>
 
-An awesome collection of projects built by Ask Buddie members.
+<p align="center">
+  <a href="https://github.com/askbuddie/showcase/stargazers" target="_blank"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/askbuddie/showcase?style=for-the-badge" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/askbuddie/showcase/network/members" target="_blank"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/askbuddie/showcase?style=for-the-badge" /></a>
+  <br />
+  <strong>An awesome collection of projects built by Ask Buddie members.</strong>
+</p>
+
+
 
 # Table Of Contents
 
