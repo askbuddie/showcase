@@ -1,6 +1,6 @@
 <p align="center">
      <a href="https://www.askbuddie.com">
-         <img src="src/images/ask-buddie.png" align="center" alt="askbuddie-logo" width="100"/>
+         <img src="src/images/ask-buddie-round.png" align="center" alt="askbuddie-logo" width="100"/>
      </a>
 </p>
 <h1 align="center" style="border: 0;"> Showcase </h1>
