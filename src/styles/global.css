@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+@media (max-width: 640px) {
+    .sm-extraspace{
+        margin: 20px 0px;
+    }
+    .sm-80{
+        width: 80%;
+    }
+}
