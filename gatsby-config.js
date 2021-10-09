@@ -12,6 +12,12 @@ module.exports = {
     //     icon: 'src/images/icon.png',
     //   },
     // },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: './src/images/',
+      },
+    },
     'gatsby-plugin-mdx',
     {
       resolve: 'gatsby-source-filesystem',
@@ -30,4 +36,4 @@ module.exports = {
       __key: 'project',
     },
   ],
-}
+};
