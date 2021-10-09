@@ -1,5 +1,6 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import { Project } from './Project';
 
 export const Projects = () => {
   const allProjects = useStaticQuery(graphql`
@@ -12,33 +13,26 @@ export const Projects = () => {
             frontmatter {
               title
               tags
-              featuredImg
+              featuredImg {
+                publicURL
+              }
               excerpt
             }
           }
         }
       }
     }
-  `)
+  `);
 
-  const projects = allProjects.allMdx.edges
+  const projects = allProjects.allMdx.edges;
 
   return (
     <div>
-      <ul>
-        {projects.map(
-          ({
-            node: {
-              frontmatter: { title, excerpt },
-            },
-          }) => (
-            <li>
-              <strong> Title: {title} </strong>
-              <p>{excerpt}</p>
-            </li>
-          )
-        )}
+      <ul className="flex flex-wrap overflow-hidden">
+        {projects?.map((project) => (
+          <Project {...project} />
+        ))}
       </ul>
     </div>
-  )
-}
+  );
+};
