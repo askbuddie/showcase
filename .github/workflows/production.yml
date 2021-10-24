@@ -5,10 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
-  jobs:
-    Deploy-Action:
-      name: Deploy to production
-      runs-on: ubuntu-latest
+jobs:
+  Deploy-Action:
+    name: Deploy to production
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
