@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import { Project } from './Project';
 
 export const Projects = () => {
@@ -26,13 +26,15 @@ export const Projects = () => {
 
   const projects = allProjects.allMdx.edges;
 
+  console.log(projects);
+
   return (
-    <div>
-      <ul className="flex flex-wrap overflow-hidden">
-        {projects?.map((project) => (
+    <div className="grid grid-cols-3 gap-4">
+      {projects?.map((project) => (
+        <Link to={'/projects/' + project.node.slug} key={project.node.id}>
           <Project {...project} />
-        ))}
-      </ul>
+        </Link>
+      ))}
     </div>
   );
 };
